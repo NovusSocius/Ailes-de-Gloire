@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Merriweather:wght@300;700&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px; /* Adjust width as necessary */
+}
+
+.page-header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 40%; /* Ensures image doesn't overflow */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-image {
+    width: calc(33.333% - 20px); /* Three images with spacing */
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    object-fit: cover;
+}
+
+.contricontries li{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1, h2, h3 {
+    display: flex;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
