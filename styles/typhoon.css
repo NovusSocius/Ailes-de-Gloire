@@ -25,10 +25,25 @@ body {
 }
 
 .logo {
-    max-width: 40%; /* Ensures image doesn't overflow */
+    max-width: 28%; /* Ensures image doesn't overflow */
     height: auto;
     display: block;
     margin: 0 auto; /* Centers the image */
+}
+
+
+.flag {
+    max-width: 20%; /* Ensures image doesn't overflow */
+    height: auto;
+    display: inline-block;
+    margin: 0 auto; /* Centers the image */
+    justify-content: center;
+}
+
+.country-flags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .image-gallery {
